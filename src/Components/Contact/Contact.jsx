@@ -15,7 +15,9 @@ function Contact() {
         <div className="contact-left">
           <h1>Let's talk about everything!</h1>
           <p>
-            I'm currently avaialbe to take on new projects, so feel free to send me a message about anything that you want me to work on.You can contact anyting{" "}
+            I'm currently avaialbe to take on new projects, so feel free to send
+            me a message about anything that you want me to work on.You can
+            contact anyting{" "}
           </p>
           <div className="contact-details">
             <div className="contact-detail">
