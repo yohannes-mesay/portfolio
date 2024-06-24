@@ -36,34 +36,19 @@ function About() {
               <p>HTML & CSS</p> <hr style={{ width: "55%" }} />
             </div>
             <div className="about-skill">
-              <p>React JS</p> <hr style={{ width: "70%" }} />
+              <p>React JS</p> <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
               {" "}
-              <p>JavaScript</p> <hr style={{ width: "60%" }} />
+              <p>JavaScript</p> <hr style={{ width: "55%" }} />
             </div>
             <div className="about-skill">
-              <p>Next JS</p> <hr style={{ width: "50%" }} />
+              <p>Material UI</p> <hr style={{ width: "57%" }} />
             </div>
           </div>
         </div>
       </div>
-      <div className="about-achievements">
-        <div className="about-achievement">
-          <h1>6+</h1>
-          <p>YEARS OF EXPERIENCE</p>
-        </div>
-        <hr />
-        <div className="about-achievement">
-          <h1>6+</h1>
-          <p>PROJECTS</p>
-        </div>
-        <hr />
-        <div className="about-achievement">
-          <h1>10+</h1>
-          <p>HAPPY CLIENTS</p>
-        </div>
-      </div>
+      
     </div>
   );
 }

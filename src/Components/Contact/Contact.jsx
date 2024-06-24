@@ -9,7 +9,7 @@ function Contact() {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    console.log("evttr",event.target)
+    console.log("evttr", event.target);
     formData.append("access_key", "703dc965-029d-43a0-9ce7-9b03cd1160ab");
 
     const object = Object.fromEntries(formData);
@@ -19,9 +19,9 @@ function Contact() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json"
+        Accept: "application/json",
       },
-      body: json
+      body: json,
     }).then((res) => res.json());
 
     if (res.success) {
@@ -45,15 +45,15 @@ function Contact() {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>johnnymesay@gmail.com</p>
+              <a href="mailto:johnnymesay@gmail.com">johnnymesay@gmail.com</a>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>0922699355</p>
+              <a href="tel:0922699355">0922699355</a>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>Addis ababa,Ethiopia</p>
+              <p>Addis Ababa, Ethiopia</p>
             </div>
           </div>
         </div>

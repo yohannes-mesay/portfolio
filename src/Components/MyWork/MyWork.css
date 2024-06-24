@@ -25,6 +25,15 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
+.mywork-showmore a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.mywork-inside{
+  display: flex;
+  flex-direction: column; 
+  gap:10px;
+}
 .mywork-container img {
   box-sizing: border-box;
   width: 419px;
