@@ -1,43 +1,35 @@
-import React, { useState } from "react";
-import "./MyWork.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
-import mywork_data from "../../assets/mywork_data";
-import arrow_icon from "../../assets/arrow_icon.svg";
+import project1_img from "../assets/project_1.png";
+import project2_img from "../assets/project_21.png";
+import project3_img from "../assets/project_3.png";
+import project4_img from "../assets/project_4.svg";
+import project5_img from "../assets/project_5.svg";
+import project6_img from "../assets/project_6.svg";
 
-function MyWork() {
-  const [selectedWork, setSelectedWork] = useState(null);
+const mywork_data = [
+  {
+    w_no: 1,
+    w_name: "University Marketplace",
+    w_img: project1_img,
+    w_description:
+      "A comprehensive platform for university students to buy and sell items, powered by a Django backend.",
+    w_url: "https://dev-crew-iota.vercel.app/",
+  },
+  {
+    w_no: 2,
+    w_name: "Quiz App",
+    w_img: project2_img,
+    w_description:
+      "An interactive quiz application with various categories and difficulty levels, using Django for backend services.",
+    w_url: "https://vercel.com/yohannes-mesays-projects/note-taking-app",
+  },
+  {
+    w_no: 3,
+    w_name: "Note Taking App",
+    w_img: project3_img,
+    w_description:
+      "A user-friendly app for creating, organizing, and storing notes, featuring a robust Django backend.",
+    w_url: "https://example.com/note-taking-app",
+  },
+];
 
-  const handleWorkClick = (url) => {
-    window.open(url, "_blank");
-  };
-
-  return (
-    <div id="work" className="mywork">
-      <div className="mywork-title">
-        <h1>My Projects</h1>
-        <img src={theme_pattern} alt="" />
-      </div>
-      <div className="mywork-container">
-        {mywork_data.map((work, index) => (
-          <div className="mywork-inside" key={index}>
-            <img
-              src={work.w_img}
-              alt={work.w_name}
-              onClick={() => handleWorkClick(work.w_url)}
-            />
-            <h3>{work.w_name}</h3>
-            <h4>{work.w_description}</h4>
-          </div>
-        ))}
-      </div>
-      <div className="mywork-showmore">
-        <a href="https://github.com/yohannes-mesay" target="_blank">
-          Show More
-        </a>
-        <img src={arrow_icon} alt="" />
-      </div>
-    </div>
-  );
-}
-
-export default MyWork;
+export default mywork_data;
