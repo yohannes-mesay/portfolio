@@ -1,7 +1,6 @@
-import project1_img from "../assets/project_1.png";
-import project2_img from "../assets/project_21.png";
-import project3_img from "../assets/project_3.png";
-
+import project1_img from "./project_1.png";
+import project2_img from "./project_21.png";
+import project3_img from "./project_3.png";
 
 const mywork_data = [
   {
