@@ -16,16 +16,16 @@ const mywork_data = [
     w_name: "Quiz App",
     w_img: project2_img,
     w_description:
-      "An interactive quiz application with various categories and difficulty levels, using Django for backend services.",
-    w_url: "https://vercel.com/yohannes-mesays-projects/note-taking-app",
+      "An interactive quiz application with various categories and difficulty levels.",
+    w_url: "https://quiz-orpin-zeta.vercel.app",
   },
   {
     w_no: 3,
     w_name: "Note Taking App",
     w_img: project3_img,
     w_description:
-      "A user-friendly app for creating, organizing, and storing notes, featuring a robust Django backend.",
-    w_url: "https://example.com/note-taking-app",
+      "A user-friendly app for creating, organizing, and storing notes",
+    w_url: "https://note-taking-app-kohl.vercel.app",
   },
 ];
 
