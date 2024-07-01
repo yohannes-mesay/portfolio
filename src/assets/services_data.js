@@ -9,13 +9,14 @@ const Services_Data = [
     s_no: "02",
     s_name: "Backend Integration",
     s_desc:
-      "Implementing backend services with platforms like Supabase for secure, scalable data management.",
+      "Utilizing Backend as a Service (BaaS) platforms to build secure, scalable, and efficient backends for modern web applications.",
   },
+
   {
     s_no: "03",
     s_name: "UI/UX Design",
     s_desc:
-      "Designing intuitive user experiences with a focus on usability and aesthetics.",
+      "Crafting intuitive and visually appealing user interfaces with a focus on usability, aesthetics, and user-centric design principles.",
   },
 ];
 

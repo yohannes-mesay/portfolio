@@ -12,7 +12,7 @@ const Hero = () => {
         <span>I'm Yohannes Mesay,</span> Web developer based in Ethiopia
       </h1>
       <p>
-        I am a front-end developer creating impactful web experiences through
+        I am a full-stack developer creating impactful web experiences through
         innovative design and seamless functionality
       </p>
       <div className="hero-action">
